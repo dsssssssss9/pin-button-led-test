@@ -9,7 +9,13 @@
  * 
  * Connect other leg resistor to  GND
  */
-basic.showIcon(IconNames.Heart)
+basic.showLeds(`
+    # # # # .
+    # . . . .
+    # # # . .
+    # . . . .
+    # . . . .
+    `)
 pins.digitalWritePin(DigitalPin.P16, 0)
 basic.forever(function () {
     pins.digitalWritePin(DigitalPin.P16, pins.digitalReadPin(DigitalPin.P0))
