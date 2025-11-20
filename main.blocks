@@ -1,0 +1,9 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><comment id="^!bNsS#zb]Fnj0[tqt6)" x="387" y="67" w="414" h="404">Connect 1 corner of switch to PIN0
+Connect opposite corner of switch to 3v
+
+Connect Anode ( long leg ) of LED to PIN16
+
+Connect Cathode ( short Leg ) of LED to 1 leg  of the Resistor
+
+
+Connect other leg resistor to  GND</comment><block type="device_forever" id="H0KATtzFnmHv0/h$quBa" x="223" y="-152"><statement name="HANDLER"><block type="device_set_digital_pin" id="gvPxc9o=nOCYL+lstZsY"><value name="name"><shadow type="digital_pin_shadow" id="6;J6.S$.E*RtlEsGeUA)"><field name="pin">DigitalPin.P16</field></shadow></value><value name="value"><shadow type="math_number_minmax" id="qIBhKGsJ*Lp)KC~(},y!"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="device_get_digital_pin" id="+1bqLKNH:|=M@OJ!188A"><value name="name"><shadow type="digital_pin_shadow" id="0C_S1}*%s,f#M17jO1/8"><field name="pin">DigitalPin.P0</field></shadow></value></block></value></block></statement></block><block type="pxt-on-start" id="(EJ;T]ok{*]zh$SbX`FN" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="*^zg9pq|,ma4T~%uN_q~"><field name="i">IconNames.Heart</field><next><block type="device_set_digital_pin" id="%-eB%^k6ri#IBw;e[oTt"><value name="name"><shadow type="digital_pin_shadow" id="o@%##|g;Om3tSdeL6h%7"><field name="pin">DigitalPin.P16</field></shadow></value><value name="value"><shadow type="math_number_minmax" id="[C%W6`/O#{^y)yc)Y_o6"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></statement></block></xml>
